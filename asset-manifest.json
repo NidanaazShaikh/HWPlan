@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HWPlan/static/css/main.c1e336f1.css",
-    "main.js": "/HWPlan/static/js/main.34e552d0.js",
+    "main.js": "/HWPlan/static/js/main.aa7fa476.js",
     "static/js/977.de8d6ab3.chunk.js": "/HWPlan/static/js/977.de8d6ab3.chunk.js",
     "static/js/455.3fdd9c6b.chunk.js": "/HWPlan/static/js/455.3fdd9c6b.chunk.js",
     "static/js/453.6700d5db.chunk.js": "/HWPlan/static/js/453.6700d5db.chunk.js",
@@ -10,13 +10,13 @@
     "static/media/school.png": "/HWPlan/static/media/school.03c5734b5e98589acf5a.png",
     "index.html": "/HWPlan/index.html",
     "main.c1e336f1.css.map": "/HWPlan/static/css/main.c1e336f1.css.map",
-    "main.34e552d0.js.map": "/HWPlan/static/js/main.34e552d0.js.map",
+    "main.aa7fa476.js.map": "/HWPlan/static/js/main.aa7fa476.js.map",
     "977.de8d6ab3.chunk.js.map": "/HWPlan/static/js/977.de8d6ab3.chunk.js.map",
     "455.3fdd9c6b.chunk.js.map": "/HWPlan/static/js/455.3fdd9c6b.chunk.js.map",
     "453.6700d5db.chunk.js.map": "/HWPlan/static/js/453.6700d5db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e336f1.css",
-    "static/js/main.34e552d0.js"
+    "static/js/main.aa7fa476.js"
   ]
 }
