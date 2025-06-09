@@ -5,49 +5,106 @@ table {
 }
 
 th, td {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   padding: 6px;
   word-break: break-word;
+  text-align: left;
 }
 
 @media (max-width: 600px) {
   body, #root, .app-container {
-    font-size: 14px;   /* smaller font */
+    font-size: 14px;
     padding: 10px;
     margin: 0;
   }
+
   h2 {
     font-size: 18px;
   }
+
   input, select, textarea, button {
     font-size: 14px;
     padding: 6px 8px;
     margin: 4px 0;
   }
+
   textarea {
     min-height: 60px;
   }
+
   table {
     font-size: 12px;
   }
+
   .table-wrapper {
     overflow-x: auto;
   }
-  /* Smaller buttons */
+
   button {
     padding: 6px 12px;
   }
 
-   td:empty::before {
-    content: none;
-  }
-  /* Optional: hide entire empty cells */
-  td:empty {
-    display: none;
+  /* Fix white space issue and text overflow */
+  td, th {
+    max-width: 100px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 
-  td:nth-of-type(1)::before { content: ""; }
-  td:nth-of-type(2)::before { content: ""; }
-  td:nth-of-type(3)::before { content: ""; }
-  td:nth-of-type(4)::before { content: ""; }
+  /* Ensure empty cells do not show default label or content */
+  td:empty::before {
+    content: none;
+  }
+
+  td:empty {
+    display: table-cell; /* keep layout intact */
+  }
+
+  /* Optional: If you’re using ::before labels in mobile view, define here */
+  /*
+  td:nth-of-type(1)::before { content: "No."; }
+  td:nth-of-type(2)::before { content: "Subject"; }
+  td:nth-of-type(3)::before { content: "Classwork"; }
+  td:nth-of-type(4)::before { content: "Homework"; }
+
+  td::before {
+    font-weight: bold;
+    display: block;
+  }
+  */
 }
+
+@media (max-width: 768px) {
+  body, html {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden;
+  }
+
+  .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    --bs-gutter-x: 0 !important;
+  }
+
+  .col-md-4, .col-md-8, .col-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .img-fluid rounded{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
