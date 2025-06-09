@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HWPlan/static/css/main.1684251f.css",
+    "main.js": "/HWPlan/static/js/main.62fb845e.js",
+    "static/js/977.de8d6ab3.chunk.js": "/HWPlan/static/js/977.de8d6ab3.chunk.js",
+    "static/js/455.3fdd9c6b.chunk.js": "/HWPlan/static/js/455.3fdd9c6b.chunk.js",
+    "static/js/453.6700d5db.chunk.js": "/HWPlan/static/js/453.6700d5db.chunk.js",
+    "static/media/logo2.png": "/HWPlan/static/media/logo2.2f3f7f77feea983b1abb.png",
+    "static/media/logo1.png": "/HWPlan/static/media/logo1.23e5ec468a7cbf28cbeb.png",
+    "static/media/school.png": "/HWPlan/static/media/school.03c5734b5e98589acf5a.png",
+    "index.html": "/HWPlan/index.html",
+    "main.1684251f.css.map": "/HWPlan/static/css/main.1684251f.css.map",
+    "main.62fb845e.js.map": "/HWPlan/static/js/main.62fb845e.js.map",
+    "977.de8d6ab3.chunk.js.map": "/HWPlan/static/js/977.de8d6ab3.chunk.js.map",
+    "455.3fdd9c6b.chunk.js.map": "/HWPlan/static/js/455.3fdd9c6b.chunk.js.map",
+    "453.6700d5db.chunk.js.map": "/HWPlan/static/js/453.6700d5db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1684251f.css",
+    "static/js/main.62fb845e.js"
+  ]
+}
